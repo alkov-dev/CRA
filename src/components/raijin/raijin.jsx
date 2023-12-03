@@ -11,6 +11,8 @@ export const Raijin = () => {
       </a>
       <p>We R Testing Btn {count}</p>
       <button onClick={() => setCount((prev) => prev + 1)}>Increment</button>
+      <p>Now text input</p>
+      <input data-testId="rainput" type="text" defaultValue="raijinhasarrived" />
     </div>
   );
 };
