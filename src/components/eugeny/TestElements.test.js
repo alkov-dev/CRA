@@ -1,3 +1,4 @@
+/* eslint-disable testing-library/prefer-screen-queries */
 import React from 'react';
 import { render, cleanup, fireEvent, waitFor } from '@testing-library/react';
 import TestElements from './TestElements'
