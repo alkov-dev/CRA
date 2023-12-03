@@ -1,0 +1,26 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on:
+  push:
+    # Sequence of patterns matched against refs/heads
+    branches:
+      - 'origin/eugeny'
+      - 'origin/rn'
+      - 'origin/raijin'
+  pull_request:
+    # Sequence of patterns matched against refs/heads
+    branches:
+      - develop
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+      - name: installation
+        run: npm install
+      - name: run tests
+        run: npm run test
+      - name: Build 👷
+        run: npm run build
