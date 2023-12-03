@@ -7,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p>App</p>
+      <p>app</p>
       <Raijin />
       <Magl88 />
       <Rn />
