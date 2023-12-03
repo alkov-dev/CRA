@@ -21,5 +21,5 @@ it('testing button', () => {
   //Expected rusults
 
   expect(countElement).toHaveTextContent('We R Testing Btn 1');
-  expect(inputElement).toHaveValue('thunder hits everyday');
+  expect(inputElement).toHaveValue('thunder hits yesterday');
 });
