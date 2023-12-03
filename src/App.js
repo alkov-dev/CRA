@@ -1,6 +1,7 @@
 import Magl88 from './components/magl88/magl88';
 import { Raijin } from './components/raijin/raijin';
 import Rn from './components/rn/rn';
+import Eugeny from './components/eugeny/eugeny';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Raijin />
       <Magl88 />
       <Rn />
+      <Eugeny />
     </div>
   );
 }
