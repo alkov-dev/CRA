@@ -8,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <p>App</p>
-      <a href="#">learn react</a>
       <Raijin />
       <Magl88 />
       <Rn />
